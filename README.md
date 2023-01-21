@@ -1,1 +1,2 @@
 # 3Blue1Brown_transcripts
+This is a little project to download the audio data from all videos of the 3Blue1Brown youtube channel to then transcribe it with openAIs whisper in order to finally finetune a GPT2 model on the transcripts. --> Hoping that it will get better at math ;)
