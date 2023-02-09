@@ -1,6 +1,6 @@
 import yt_dlp
 
-channel_url = "https://www.youtube.com/watch?v=brU5yLm9DZM&t=39s"
+channel_url = "https://www.youtube.com/@3blue1brown/videos"
 
 ydl_opts = {
     'format': 'bestaudio/best',
@@ -11,9 +11,6 @@ ydl_opts = {
     }],
     'outtmpl': 'data_audio/%(title)s.%(ext)s',
     'ignoreerrors': True,
-    # 'playliststart': 1,
-    # 'playlistend': 5,
-    # 'download_archive': 'downloaded_videos.txt',
     'nooverwrites': True
 }
 
